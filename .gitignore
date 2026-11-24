@@ -1,0 +1,12 @@
+# Local opam switch link (created by `opam switch link easycrypt .`)
+_opam
+
+# EasyCrypt compiled/cache artefacts
+*.eco
+.easycrypt/
+
+# Editor droppings
+*~
+\#*\#
+.\#*
+.DS_Store

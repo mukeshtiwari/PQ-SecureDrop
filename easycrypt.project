@@ -1,0 +1,14 @@
+[general]
+# Provers installed in the `easycrypt` opam switch (see `make config`).
+provers = Alt-Ergo
+provers = Z3
+
+# SMT timeout in seconds; bump locally with `-timeout N` if a goal is slow.
+timeout = 5
+
+# Load paths, relative to this file. Each directory is added *recursively*
+# (rdirs), so `require import Foo.` finds Foo.ec anywhere below it.
+rdirs = Common
+rdirs = Classical
+rdirs = PostQuantum
+rdirs = ARIA
